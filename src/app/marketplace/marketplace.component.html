@@ -1,3 +1,7 @@
 <h2>Marketplace</h2>
 
-<p>Damn that dog kitty loves pigs yet russian blue and play time, so shove bum in owner's face like camera lens or behind the couch, for lick the plastic bag. Spend six hours per day washing, but still have a crusty butthole always ensure to lay down in such a manner that tail can lightly brush human's nose and howl uncontrollably for no reason flop over cough hairball on conveniently placed pants. Cats go for world domination wack the mini furry mouse but cat mojo or if it fits, i sits, spread kitty litter all over house get video posted to internet for chasing red dot so why must they do that. </p>
+<div *ngFor='let album of albums' (click)="goToDetailPage(album)" class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{album.title}}</em> by {{album.artist}} </h3>
+  </div>
+</div>
